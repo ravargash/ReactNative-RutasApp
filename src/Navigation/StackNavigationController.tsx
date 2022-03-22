@@ -18,8 +18,8 @@ export const StackNavigationController = () => {
                     }
                 }}
             >
-                <Stack.Screen name="Home" component={ MapScreen } />
                 <Stack.Screen name="PermissionsScreen" component={ PermissionsScreen } />
+                <Stack.Screen name="Home" component={ MapScreen } />
             </Stack.Navigator>
         </NavigationContainer>
     )
